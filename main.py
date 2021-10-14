@@ -4,7 +4,7 @@ from aiogram.utils import executor
 from prayerTime import todaytime, tomorrowtime
 from newLine import newline
 
-bot = Bot(token="1766538959:AAGz7ppzH2x8pTX63TqhFV2RTjLwrmgN3rM")
+bot = Bot(token="TOKEN")
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands="start")
